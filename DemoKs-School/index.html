@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+    <meta http-equiv="Expires" content="31536000">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//code.tidio.co">
+    <title>Demo School</title>
+    <meta name="description" content="Quality education fostering academic excellence and personal growth">
+    <meta name="theme-color" content="#333333">
+    <meta property="og:title" content="School Name - Empowering Minds, Shaping Futures">
+    <meta property="og:description" content="Quality education fostering academic excellence and personal growth">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourschool.edu">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+          integrity="sha384-..." 
+          crossorigin="anonymous"
+          media="print" 
+          onload="this.media='all'">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' code.tidio.co *.tidio.co cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline' code.tidio.co *.tidio.co cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' cdnjs.cloudflare.com; img-src 'self' data: *.tidio.co; connect-src 'self' *.tidio.co wss://*.tidio.co; frame-src *.tidio.co;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Demo School</h1>
+        </div>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav aria-label="Main navigation" id="main-nav">
+            <ul role="list">
+                <li role="none" class="dropdown">
+                    <a role="menuitem" href="#home" aria-current="page">Home</a>
+                </li>
+                <li role="none" class="dropdown">
+                    <a role="menuitem" href="#about">About</a>
+                    <span class="dropdown-toggle"><i class="fas fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#mission">Our Mission</a></li>
+                        <li><a href="#vision">Our Vision</a></li>
+                        <li><a href="#history">School History</a></li>
+                    </ul>
+                </li>
+                <li role="none" class="dropdown">
+                    <a role="menuitem" href="#academics">Academics</a>
+                    <span class="dropdown-toggle"><i class="fas fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                        <li><a href="#stem">STEM Programs</a></li>
+                        <li><a href="#arts">Arts & Humanities</a></li>
+                        <li><a href="#languages">Language Studies</a></li>
+                    </ul>
+                </li>
+                <li role="none" class="dropdown">
+                    <a role="menuitem" href="#footer" onclick="scrollToFooter(); return false;">Contact</a>
+                </li>
+                <li role="none" class="theme-toggle-container">
+                    <div class="theme-toggle">
+                        <input type="checkbox" id="dark-mode-toggle" class="dark-mode-checkbox">
+                        <label for="dark-mode-toggle" class="dark-mode-label">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                            <span class="toggle-ball"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-label="Welcome">
+            <h2>Building Tomorrow's Leaders Today</h2>
+            <p>Join our vibrant community of learners and discover a world of opportunities. Our innovative approach to education prepares students for success in an ever-changing world.</p>
+            <a href="#footer" onclick="scrollToFooter(); return false;" class="cta-button">Schedule a Visit</a>
+        </section>
+
+        <div class="container">
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Welcome to our school, where excellence meets opportunity. We are dedicated to fostering an innovative learning environment that empowers students to discover their passions, develop critical thinking skills, and become future leaders. Our experienced faculty and state-of-the-art facilities provide the perfect foundation for academic success and personal growth.</p>
+                <p>With a rich history spanning over two decades, we have consistently maintained high academic standards while adapting to the evolving needs of modern education. Our commitment to holistic development ensures that every student receives the attention and support they need to excel.</p>
+            </section>
+
+            <section id="academics">
+                <h2>Academics</h2>
+                <p>Our comprehensive academic programs are designed to challenge and inspire students through innovative teaching methods and cutting-edge curriculum.</p>
+                <ul>
+                    <li class="subject-card">
+                        <h3>STEM Education</h3>
+                        <p>Advanced courses in Science, Technology, Engineering, and Mathematics with hands-on laboratory experience.</p>
+                    </li>
+                    <li class="subject-card">
+                        <h3>Arts & Humanities</h3>
+                        <p>Rich programs in Literature, History, Fine Arts, and Music to develop creative and critical thinking.</p>
+                    </li>
+                    <li class="subject-card">
+                        <h3>Language Studies</h3>
+                        <p>Comprehensive language programs including English, Spanish, French, and Mandarin Chinese.</p>
+                    </li>
+                    <li class="subject-card">
+                        <h3>Physical Education</h3>
+                        <p>Diverse sports programs and health education promoting physical wellness and team spirit.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="gallery">
+                <h2>School Gallery</h2>
+                <p>Take a visual tour through our vibrant campus life and student activities.</p>
+                
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="https://placehold.co/800x600" alt="Campus Building">
+                        <div class="gallery-caption">
+                            <h3>Modern Campus</h3>
+                            <p>Our state-of-the-art facilities provide the perfect learning environment</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://placehold.co/800x600" alt="Science Lab">
+                        <div class="gallery-caption">
+                            <h3>Science Laboratory</h3>
+                            <p>Students engaged in hands-on scientific experiments</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://placehold.co/800x600" alt="Library">
+                        <div class="gallery-caption">
+                            <h3>Library</h3>
+                            <p>A quiet space for research and study</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://placehold.co/800x600" alt="Sports Field">
+                        <div class="gallery-caption">
+                            <h3>Sports Facilities</h3>
+                            <p>Supporting physical education and team sports</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://placehold.co/800x600" alt="Art Studio">
+                        <div class="gallery-caption">
+                            <h3>Art Studio</h3>
+                            <p>Where creativity comes to life</p>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item">
+                        <img src="https://placehold.co/800x600" alt="Student Life">
+                        <div class="gallery-caption">
+                            <h3>Student Life</h3>
+                            <p>Engaging in extracurricular activities</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <p>123 Education Street</p>
+                <p>City, State ZIP</p>
+                <p>Phone: +251 936264750</p>
+                <p>Email: info@schoolname.edu</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#about">About Us</a></p>
+                <p><a href="#academics">Academics</a></p>
+                <p><a href="#contact">Contact</a></p>
+                <p><a href="#privacy">Privacy Policy</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for updates and news about our school community.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 School Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <script src="script.js"></script>
+    
+    <!-- Tidio Live Chat -->
+    <script src="//code.tidio.co/a5dvizvfdllghrnkndlyj2qbmkp6takv.js" async></script>
+
+    <!-- Add structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "School",
+        "name": "Demo School",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Education Street",
+            "addressLocality": "City",
+            "addressRegion": "State",
+            "postalCode": "ZIP"
+        }
+    }
+    </script>
+</body>
+</html>
